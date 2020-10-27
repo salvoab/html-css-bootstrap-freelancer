@@ -1,3 +1,10 @@
 .my-bg-green{
   background-color: #1abc9c;
 }
+
+.my-card-portfolio{
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  border: 2px solid red;
+}
