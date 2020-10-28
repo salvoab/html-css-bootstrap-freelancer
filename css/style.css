@@ -32,14 +32,13 @@
 /* END utility */
 
 /* Typo */
-h1{
+h1, h2, h3{
   font-weight: bold;
 }
 
 h2{
   text-align: center;
   padding: 20px 0;
-  font-weight: bold;
 }
 
 p{
@@ -126,8 +125,40 @@ nav div.collapse ul li a:hover{
 
 /* ****** END about ****** */
 
+/* ****** contact ****** */
+.my-input{
+  border: none;
+}
+
+#my-submit{
+  padding: 20px 30px;
+  color: white;
+  margin: 20px 0;
+}
+
+#my-submit:hover{
+  background-color: darkgreen;
+}
+/* ****** END contact ****** */
+
 /* END main */
+
+/* footer */
 #site-footer{
   background-color: #3a546d;
   color: white;
+}
+
+#site-footer ul li{
+  font-size: 4rem;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#site-footer span{
+  color: #1abc9c;
+}
+
+#site-footer .container-fluid p{
+  padding: 40px;
 }
