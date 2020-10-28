@@ -1,17 +1,31 @@
+/* utility */
+.p-90{
+  padding: 90px;
+}
 .my-bg-green{
   background-color: #1abc9c;
 }
-
 .my-bg-dark{
   background-color: #2c3e50;
+}
+.my-bg-white{
+  background-color: white;
 }
 
 .my-text-white{
   color: white!important;
 }
+
+/* END utility */
+
 /* Typo */
 h2{
   text-align: center;
+  padding: 20px 0;
+}
+
+p{
+  padding: 20px 0;
 }
 /* END Typo */
 
@@ -29,6 +43,25 @@ nav div.collapse ul li a:hover{
     background-color: #1abc9c;
 }
 /* END navbar */
+
+/* jumbotron */
+.jumbotron img{
+  height: 280px;
+  margin-top: 40px;
+}
+
+.my-star-icon{
+  font-size: 3rem;
+}
+
+.my-line{
+  display: inline-block;
+  height: 4px;
+  width: 100px;
+  margin: 0 8px 10px 4px;
+}
+
+/* END jumbotron */
 
 .my-card-portfolio{
   height: 300px;
