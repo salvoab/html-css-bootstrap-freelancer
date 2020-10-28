@@ -9,7 +9,13 @@
 .my-text-white{
   color: white!important;
 }
+/* Typo */
+h2{
+  text-align: center;
+}
+/* END Typo */
 
+/* navbar */
 #my-navbar{
   margin-bottom: 0;
 }
@@ -22,6 +28,7 @@ nav div.collapse ul li a:hover{
 .navbar-default .navbar-toggle:hover {
     background-color: #1abc9c;
 }
+/* END navbar */
 
 .my-card-portfolio{
   height: 300px;
