@@ -5,6 +5,13 @@
 .p-10{
   padding: 10px;
 }
+.py-50{
+  padding: 50px 0;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
 
 .my-bg-green{
   background-color: #1abc9c;
@@ -38,6 +45,7 @@ h2{
 p{
   padding: 20px 0;
 }
+
 /* END Typo */
 
 /* navbar */
@@ -81,9 +89,43 @@ nav div.collapse ul li a:hover{
   padding-bottom: 10px;
 }
 
+/* ****** portfolio ****** */
 .my-card-portfolio{
   width: 100%;
 }
+/* ****** END portfolio ****** */
+
+/* ****** about ****** */
+
+.my-container-sm{
+  max-width: 980px;
+  margin: auto;
+}
+
+#about p{
+  font-size: 2rem;
+  padding: 20px 50px;
+}
+
+#my-download-btn{
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  margin: auto;
+}
+
+#my-download-btn:hover{
+  background-color: #ededed;
+  color: #2c3e50;
+  border-color: white;
+}
+
+.my-btn-container{
+  text-align: center;
+}
+
+/* ****** END about ****** */
+
 /* END main */
 #site-footer{
   background-color: #3a546d;
