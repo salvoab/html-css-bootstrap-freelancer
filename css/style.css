@@ -2,8 +2,8 @@
 .p-90{
   padding: 90px;
 }
-.py-10{
-  padding: 10px 0;
+.p-10{
+  padding: 10px;
 }
 
 .my-bg-green{
@@ -68,8 +68,9 @@ nav div.collapse ul li a:hover{
 /* END jumbotron */
 
 .my-card-portfolio{
-  height: 240px;
-  width: 332px;
+  /* height: 240px;
+  width: 332px; */
+  width: 100%;
   background-color: green;
   border: 2px solid red;
 }
