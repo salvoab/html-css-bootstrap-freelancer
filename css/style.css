@@ -19,13 +19,20 @@
 .my-text-white{
   color: white!important;
 }
-
+.my-text-dark{
+  color: #2c3e50;
+}
 /* END utility */
 
 /* Typo */
+h1{
+  font-weight: bold;
+}
+
 h2{
   text-align: center;
   padding: 20px 0;
+  font-weight: bold;
 }
 
 p{
@@ -36,6 +43,7 @@ p{
 /* navbar */
 #my-navbar{
   margin-bottom: 0;
+  font-weight: bold;
 }
 
 nav div.collapse ul li a:hover{
@@ -67,14 +75,16 @@ nav div.collapse ul li a:hover{
 
 /* END jumbotron */
 
-.my-card-portfolio{
-  /* height: 240px;
-  width: 332px; */
-  width: 100%;
-  background-color: green;
-  border: 2px solid red;
+/* main */
+.my-star-decoration{
+  text-align: center;
+  padding-bottom: 10px;
 }
 
+.my-card-portfolio{
+  width: 100%;
+}
+/* END main */
 #site-footer{
   background-color: #3a546d;
   color: white;
