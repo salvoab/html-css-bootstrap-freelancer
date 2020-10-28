@@ -122,13 +122,13 @@ nav div.collapse ul li a:hover{
 /* ****** about ****** */
 
 .my-container-sm{
-  max-width: 980px;
+  max-width: 70%;
   margin: auto;
 }
 
 #about p{
   font-size: 2rem;
-  padding: 20px 50px;
+  padding: 20px;
 }
 
 #my-download-btn{
